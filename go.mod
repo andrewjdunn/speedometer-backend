@@ -1,4 +1,4 @@
-module hciware.com/speedometer
+module github.com/andrewjdunn/speedometer-backend
 
 go 1.19
 

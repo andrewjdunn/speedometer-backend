@@ -5,9 +5,9 @@ import (
 	"net/http"
 	"time"
 
+	"github.com/andrewjdunn/speedometer-backend/database"
 	"github.com/gin-contrib/cors"
 	"github.com/gin-gonic/gin"
-	"hciware.com/speedometer/database"
 )
 
 func Main() {

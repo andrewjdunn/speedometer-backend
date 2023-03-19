@@ -6,8 +6,8 @@ import (
 	"log"
 	"os"
 
+	"github.com/andrewjdunn/speedometer-backend/record"
 	"github.com/go-sql-driver/mysql"
-	"hciware.com/speedometer/record"
 )
 
 func SpeedRecords() ([]record.Record, error) {

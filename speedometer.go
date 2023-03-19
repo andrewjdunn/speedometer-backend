@@ -6,9 +6,9 @@ import (
 	"math/rand"
 	"time"
 
-	"hciware.com/speedometer/database"
-	"hciware.com/speedometer/graph"
-	"hciware.com/speedometer/record"
+	"github.com/andrewjdunn/speedometer-backend/database"
+	"github.com/andrewjdunn/speedometer-backend/graph"
+	"github.com/andrewjdunn/speedometer-backend/record"
 )
 
 var timeNextTestDue time.Time = time.Now()
